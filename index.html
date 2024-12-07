@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <!--Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Varela+Round&display=swap" rel="stylesheet">
+
+    <title>Portafolio web</title>
+</head>
+<body>
+    <header class="header">
+        <a class="header-link" href="index.html">
+            <h1 class="brand">
+                <img class="brand__png" src="./assets/brand.png" alt="Logotipo">
+            </h1>
+        </a>
+        <nav class="nav">
+            <a class="nav__link" href="#about-me">Sobre mi</a>
+            <a class="nav__link" href="#work">Trabajos</a>
+            <a class="nav__link nav__link--primary" href="#contact">Contacto</a>
+            <a class="nav__link nav__link--secundary" href="https://www.behance.net/mailynvalencia">Portafolio Externo</a>
+            <a class="nav__link nav__link--icon-only" href="#">
+                <svg class="nav__icon" xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+            </a>
+        </nav>
+    </header>
+    <main class="main">
+        <!--left-->
+        <div class="content">
+            <h2 class="content__title">Hola, bienvenido a mi portafolio soy <span class="content__title--highlighted">Mai!</span></h2>
+            <p class="content__paragraph">Diseñadora Gráfica en formación, apasionada por la diagramación de revistas y las fotografías. <br>
+                <br>El arte y la creatividad siempre me han apasionado y nunca le he tenido miedo a los retos nuevos. Lo que más me gusta de ser diseñadora es que puedo compartir mensajes y sentimientos a través de mis piezas, darle voz a lugares o situaciones que ocurren en el mundo y capturar momentos inolvidables.</p>
+            <h3 class="content__time-zone">Zona horaria de Colombia (GMT-5)</h3>
+        </div>
+        <!--right-->
+        <div class="slider">
+            <ul>
+                <li class="picture-one"><img src="./assets/imagen-1.jpeg" alt=""></li>
+                <li class="picture-two"><img src="./assets/imagen-2.jpeg" alt=""></li>
+                <li class="picture-three"><img src="./assets/imagen-1.jpeg" alt=""></li>
+            </ul>
+        </div>
+    </main>
+
+        <section id="about-me" class="section section--one">
+            <div class="content__text">
+                <h1 class="text__title">sobre mi</h1>
+                <p class="text__paragrah">En esta sección encontrarás información sobre quien soy como profesional,
+                que<br>características destacan de mi persona y que servición te puedo ofrecer de<br>acuerdo a mi experiencia.</p>
+            </div>
+
+            <div class="skills">
+                <h3 class="title">Habilidades</h3>
+                <p class="paragrah">
+                    <li class="skill">Fotografía</li>
+                    <li class="skill">Maquetación</li>
+                    <li class="skill">Diagramación </li>
+                    <li class="skill">Edición digital</li>
+                </p>
+            </div>
+
+            <div class="abilities">
+                <h3 class="abilities__title">Aptitudes</h3>
+                <p class="abilities__paragrah">
+                    <li class="abilitie">Comunicación</li>
+                    <li class="abilitie">Adaptabilidad</li>
+                    <li class="abilitie">Trabajo en equipo</li>
+                    <li class="abilitie">Resolución de problemas</li>
+                </p>
+            </div>
+
+            <div class="languages">
+                <h3 class="languages__title">Idiomas</h3>
+                <p class="languages__paragrah">
+                    <li class="language">Español - Nativo</li>
+                    <li class="language"> Inglés - B1  </li>
+                </p>
+            </div>
+
+            <div class="experiences">
+                <h3 class="experience__title">Experiencia</h3>
+                <p class="experience__paragrah">
+                    <li class="experience">Posters</li>
+                    <li class="experience">Revistas Digitales</li>
+                    <li class="experience">Sesiones Fotográficas</li>
+                </p>
+            </div>
+        <!--works-->
+        </section>
+        <section id="work" class="section section--two">
+            <div class="work__one">
+                <a class="work__one work__one--number" href="#editorial">01</a>
+                <p class="work__one work__one--text">Diseño Editorial</p>
+            </div>
+            <div class="work__two">
+                <a class="work__two--number" href="#photo">02</a>
+                <p class="work__two--text">Fotografía</p>
+            </div>
+            <div class="work__three">
+                <a class="work__three--number" href="#posters">03</a>
+                <p class="work__three--text">Posters</p>
+            </div>
+            <div class="shape"></div>
+        </section>
+        <!--editorial-->
+        <section id="editorial" class="editorial__design">
+            <h2 class="editorial-design__title">Diseño Editorial</h2>
+
+            <div class="work-one__content">
+                <a href="https://www.behance.net/gallery/214051793/ENCANTO-MEXICANO"><img class="content__left" src="./assets/revista-encanto.png" alt="Portada encanto"></a>
+                <div class="content__right">
+                    <h3 class="right__title">Encanto Mexicano</h3>
+                    <p class="right__paragrah">Es un revista país, donde podrás encontrar <br> información sobre la gastronomía  de México, <br> famosos, naturaleza,  lugares mágicos para <br> visitar y que actividades hacer en ellos.</p>
+                    <figure class="programs">
+                        <img class="programs__pic-ai" src="./assets/illustrator.png" alt="">
+                        <img class="programs__pic-id" src="./assets/indesign.png" alt="id">
+                        <img class="programs__pic-lg" src="./assets/lightroom.png" alt="lg">
+                    </figure>
+                </div>
+            </div>
+
+            <div class="work-two__content">
+                <a href="https://www.behance.net/gallery/214053541/RETRO-VIBES"><img class="content__img" src="./assets/revista-portada.jpg" alt="Portada retro"></a>
+                <div class="content__text-work">
+                    <h3 class="text-work__title">Retro Vibes</h3>
+                    <p class="text-work__paragrah">Es una revista fotográfica, en la cual se <br>conceptualizó la temática retro llevada <br>hacia la moda.</p>
+                    <figure class="programs">
+                        <img class="programs__pic-ai" src="./assets/lightroom.png" alt="lg">
+                        <img class="programs__pic-id" src="./assets/indesign.png" alt="id">
+                        <img class="programs__pic-lg" src="./assets/photoshop.png" alt="lg">
+                    </figure>
+                </div>
+            </div>
+            <div class="shape__editorial"></div>
+        </section>
+        <!--photograhp-->
+        <section id="photo" class="photograph">
+            <h2 class="photograph__title">Fotografía</h2>
+        
+            <div class="work-one__content">
+                <a href="https://www.behance.net/gallery/214054425/Retratos"><img class="content__left" src="./assets/picture-retrato.jpeg" alt="Retrato"></a>
+                <div class="content__right">
+                    <h3 class="right__title">Retrato</h3>
+                    <p class="right__paragrah">Es un trabajo en el que se materializo en <br>una imagen la esencia y personalidad de <br> distintas personas</p>
+                    <figure class="programs">
+                        <img class="programs__pic-lg" src="./assets/lightroom.png" alt="lg">
+                    </figure>
+                </div>
+            </div>
+        
+            <div class="work-two__content">
+                <a href="https://www.behance.net/gallery/214053541/RETRO-VIBES"><img class="content__img" src="./assets/picture-retro.jpg" alt="Portada retro"></a>
+                <div class="content__text-work">
+                    <h3 class="text-work__title">Retro Vibes: Fotos</h3>
+                    <p class="text-work__paragrah">Estas fotos fueron realizas para una <br>revista fotográfica, en la cual se <br>conceptualizó la tematica retro</p>
+                    <figure class="programs">
+                        <img class="programs__pic-ai" src="./assets/lightroom.png" alt="lg">
+                    </figure>
+                </div>
+            </div>
+            <div class="shape__editorial"></div>
+        </section>
+        <!--Posters-->
+        <section id="posters" class="posters">
+            <h2 class="photograph__title">Posters</h2>
+        
+            <div class="work-one__content">
+                <a href="https://www.behance.net/gallery/214180097/Un-viaje-por-Bolivar?share=1"><img class="content__left" src="./assets/picture-bolivar.jpeg" alt="Bolivar"></a>
+                <div class="content__right">
+                    <h3 class="right__title">Un viaje por Bolívar</h3>
+                    <p class="right__paragrah">Es una pieza basada en el departamento <br> del Bolívar, Colombia cultura, donde <br> hemos resaltados múltiples elementos <br> como 
+                        constumbres y reliquias del <br> departamente del bolivar</p>
+                    <figure class="programs">
+                        <img class="programs__pic-lg" src="./assets/lightroom.png" alt="lg">
+                        <img class="programs__pic-ps" src="./assets/photoshop.png" alt="ps">
+                    </figure>
+                </div>
+            </div>
+            
+            <div class="work-two__content">
+                <a href="https://www.behance.net/gallery/214178813/Raices-Cortadas?"><img class="content__img" src="./assets/picture-raices.png" alt="Raíces cortadas"></a>
+                <div class="content__raices">
+                    <h3 class="raices__title">Raíces Cortadas</h3>
+                    <p class="raices__paragrah">Es una pieza gráfica basada en el <br> desplazamiento forzado, enfocado en los campesinos que son obligador a sus <br> tierras rumbo a las ciudades sin saber <br> que les depare el destino.</p>
+                    <figure class="programs">
+                        <img class="programs__pic-lg" src="./assets/illustrator.png" alt="">
+                        <img class="programs__pic-lg" src="./assets/photoshop.png" alt="">
+                    </figure>
+                </div>
+            </div>
+            <div class="shape__editorial"></div>
+        </section>
+    <!--contact-->
+        <section id="contact" class="section section--three">
+            <div class="contact__content">
+                <h4 class="content__subtitle">hola</h4>
+                <p class="content__paragraph--contact">¿Necesitas  de mis servicios? No <br> dudes en ponerte en contacto <br> conmigo por cualquier medio que <br> estare encanta de servirte.</p>
+            </div>
+            <div class="footer">
+                <div class="footer__socialnetwork">
+                <a href="https://www.instagram.com/maivalencia29/">
+                    <figure class="socialnetwork">
+                        <img class="socialnetwork__svg" src="./assets/ig-icon.svg" alt="icon">
+                    </figure>
+                </a>
+                <a href="https://wa.me/573024911874">
+                    <figure class="socialnetwork">
+                        <img class="socialnetwork__svg" src="./assets/wh-icon.svg" alt="icon">
+                    </figure>
+                </a>
+                <a href="https://github.com/maivalencia">
+                    <figure class="socialnetwork">
+                        <img class="socialnetwork__svg socialnetwork__svg--github" src="./assets/gh-icon.svg" alt="icon">
+                    </figure>
+                </a>
+            <!--formulario-->
+            <div class="inscription__form"><form class="form" action="click">
+                <svg class="form__icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="CurrentColor"><path d="M160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm320-280L160-640v400h640v-400L480-440Zm0-80 320-200H160l320 200ZM160-640v-80 480-400Z"/></svg>
+                </svg>
+                <input class="form__inpunt" type placeholder="Introduce tú correo">
+            </form>
+            <form class="form" action="click">
+                <input class="form__inpunt-password" type placeholder="Introduce tú contraseña">
+            </form>
+            <a  chref=""><button class="button__primary">Inscribir correo</button></a>
+            </div></div>
+            </div>
+        </section>
+</body>
+</html>
